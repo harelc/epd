@@ -1,5 +1,10 @@
 """Gradio demo for Edge-Preserving Multi-Scale Tone Manipulation."""
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent / "src"))
+
 import gradio as gr
 import numpy as np
 
